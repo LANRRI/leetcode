@@ -15,7 +15,6 @@ public class TestMain {
         ExecutorService abc = Executors.newFixedThreadPool(6);
         abc.execute(()->{
             System.out.println("thread exec");
-            // add comment
                 throw new Exception();
         });
     }
