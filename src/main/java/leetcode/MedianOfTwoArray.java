@@ -11,7 +11,7 @@ public class MedianOfTwoArray {
 
     public int findKth(int k ,int [] nums1 , int [] nums2 , int start1 ,int start2){
         if (start1 >= nums1.length){
-            return nums1[start2 + k -1];
+            return nums2[start2 + k -1];
         }
         if (start2 >= nums2.length){
             return nums1[start1 + k -1];
